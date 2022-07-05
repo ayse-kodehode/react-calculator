@@ -1,0 +1,110 @@
+.App {
+    background-color: #1b2939;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  
+  }
+
+  @media screen and (min-width:992px) {
+    .Calculator {
+      height: 80vh;
+      width: 25%;
+      box-shadow: 0 2rem 4rem var(--shadow);
+      background-color: #1b2939;
+      size:cover;
+  
+  }
+          }
+  
+
+
+       
+.result-screen {
+            height: 20vh;
+            font-size: 3rem;   
+            font-weight: 400;
+            display:flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            color: white;
+
+        }
+        
+.computation-screen {
+
+    height: 3vh;
+    font-size: 12px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+}
+
+.screen {
+    height: 25vh;
+  
+    padding:0rem 0rem 0rem 0rem;
+    overflow: hidden;
+    color: white;
+    white-space: no-wrap;
+    background-color:#1b2939;   
+
+
+}
+.keypad-row {
+    height: 11vh; /* (80vh calculator - 25vh screen) / 5 keypadRow components = 11vh */
+    width: 100%;
+    display: flex; /* To control the dimension */
+    background-color:#1b2939;
+    
+  }
+
+.keypad {
+    height: 55vh;
+    width: 100%;
+   
+}
+
+
+.btn {
+    width: 25%;
+    height: 100%;
+    font-size: 1.7rem;
+    color: white;
+    background-color: #374155 ;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    border-color:#1b2939;
+}
+
+.btn:hover {
+    color: white;
+    background-color:#6b63f9;
+  }
+
+.btn:active {
+    transform: scale(.95);
+  }
+
+.large-btn {
+    width: 50%;
+    color: white;
+    background-color:#374155;
+    outline: none;
+    transition: all .2s;
+    border-radius: 1rem;
+    border-color:#1b2939;
+  }
+
+.large-btn:hover {
+    background-color:#6b63f9;
+    color: white;
+  }
